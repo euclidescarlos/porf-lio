@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/src/styles/style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <head>
     <meta charset="UTF-8">
@@ -8,13 +8,11 @@
     <title>Portfólio de Euclides Neto</title>
 </head>  
 <body>
-
-<div class="a1">
     <div class = "cabes">
-     
-        <img src="/img/Neto.jpeg" style="height: 250px; border-radius: 100%; border: white 4px solid; ">
-        
-            <ul>
+        <div class="cab">
+            <img src="/img/Neto.jpeg" style=" margin: 50px; height: 300px; border-radius: 100%; border: white 4px solid; ">
+            
+            <ul> 
                 <h1>Euclides Neto</h1>
                 <li>
                     <a class="icon-li"><i class="bi bi-cup-hot"></i></a>
@@ -32,9 +30,120 @@
                     <a class="icon-li"><i class="bi bi-envelope-at"></i></a>
                     <a class="text-li" href="mailto:carloseuclidesneto@gmail.com">carloseuclidesneto@gmail.com</a>
                 </li>
-            </ul>    
-        
-    </div>
-</div>
+            </ul>
+        </div> 
+        <div class="acordeao">
+            <div id="container">
+                <div class="accordion">
+                    <button class="accordion-header">
+                        <span>
+                            Sobre mim
+                            <i class="bi bi-person-circle"></i>
+                        </span>
+                        <i class="bi bi-caret-down-fill arrow"></i>
+                    </button>
+
+                    <div class="accordion-body">
+                    <p class="bio">
+                        Atualmente cursando Análise e Desenvolvimento de Sistemas (ADS), 
+                        estou buscando oportunidades para aplicar conhecimentos em programação, design de software, desenvolvimento de software e banco de dados, com domínio em Java, JavaScript, Python, HTML e SQL. 
+                        Comprometido com o aprendizado contínuo, viso aprimorar habilidades e contribuir para o desenvolvimento de soluções inovadoras.
+                    </p> 
+                    </div>
+                </div>
+            </div>
+            <div id="container">
+                <div class="accordion">
+                    <button class="accordion-header">
+                        <span>
+                            Social
+                            <i class="bi bi-paperclip"></i>
+                        </span>
+                        <i class="bi bi-caret-down-fill arrow"></i>
+                    </button>
+
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                <i class="bi bi-github"style="font-size: 70px;"></i>
+                                <a target="_blank" href="https://github.com/euclidescarlos">Github</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-linkedin"style="font-size: 70px;"></i>
+                            <a target="_blank" href="https://www.linkedin.com/in/euclides-carlos-neto/" >Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="container">
+                <div class="accordion">
+                    <button class="accordion-header">
+                        <span>
+                            Skills
+                            <i class="bi bi-clipboard2-data"></i> 
+                        </span>
+                        <i class="bi bi-caret-down-fill arrow"></i>
+                    </button>
+
+                    <div class="accordion-body">
+                    <p>
+                        <img src="/img/java.png" style="height: 60px; display:flex; align-items: center; ">  
+                        <p>Java</p>
+                    </p> 
+                    <p>
+                        <img src="/img/js.png" style="height: 60px; display:flex; align-items: center; ">  
+                        <p>JavaScript</p>
+                    </p>
+                    <p>
+                        <img src="/img/html.png" style="height: 60px; display:flex; align-items: center; ">  
+                        <p>HTML</p>
+                    </p>
+                    <p>
+                        <img src="/img/css.png" style="height: 60px; display:flex; align-items: center; ">  
+                        <p>CSS</p>
+                    </p>
+                    <p>
+                        <img src="/img/python.png" style="height: 60px; display:flex; align-items: center; ">  
+                        <p>Python</p>
+                    </p>                        
+                    </div>
+                </div>
+            </div>  
+            <div id="container">
+                <div class="accordion">
+                    <button class="accordion-header">
+                        <span>
+                            Experiência Profissional 
+                            <i class="bi bi-globe"></i>
+                        </span>
+                        <i class="bi bi-caret-down-fill arrow"></i>
+                    </button>
+
+                    <div class="accordion-body">
+                        <div class="exp">
+                            <p>
+                                 • Atendente de Farmácia - Farmácias Permanente - 1 ano e 6 meses
+                                <br>
+                                - > Atendimento ao cliente
+                                <br>
+                                - > Organização e planejamento de planilhas
+                                <p>
+                                 • Assistente de Monitoramento Digital - Ser Educacional - 2 meses
+                                <br>
+                                - > Suporte ao usuário remoto
+                                <br>
+                                - > Pacote Office
+                                <br>
+                                - > Gestão de reclamações
+                                </p>
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </div>  
+    <script src="/JavaScript/script.js"></script>
 </body>
 </html>
